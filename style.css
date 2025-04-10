@@ -1,5 +1,18 @@
 /* === GLOBAL STYLE === */
 
+body{
+  background:#282828;
+  color:azure;
+}
+
+h1,h2,h3,h4,h5,h6,p,small{
+  color:azure;
+}
+
+h5{
+  color:#1fc295
+}
+
 .container {
   max-width: 768px; /* Set max-width to 768px */
 }
@@ -13,6 +26,23 @@ button:hover {
   background-color: #710d0d;
 }
 
+.btn-primary {
+  background-color: #24e6a8 !important;
+  border-color: #24e6a8 !important;
+  color: #282828 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #1fc295 !important;
+  border-color: #1fc295 !important;
+  color: ##111 !important;
+}
+
+
 .img-thumbnail {
   width: 100px;
   height: 100px;
@@ -23,6 +53,14 @@ button:hover {
 
 .img-thumbnail:hover {
   transform: scale(1.1);
+}
+
+.border-bottom{
+  border-color: #161616 !important;
+}
+
+.match-date{
+  font-size: small;
 }
 
 /* === CARD CONTAINER === */
@@ -55,7 +93,7 @@ button:hover {
 /* === LANDING SCREEN === */
 #landing-screen h1,
 #landing-screen h4 {
-  color: #dc3545;
+  color: #ffe418;
 }
 
 #landing-screen h1 {
@@ -65,6 +103,10 @@ button:hover {
 #landing-screen p.lead {
   font-size: 1.12rem;
   font-weight: 300;
+}
+
+#landing-screen .matches{
+  background-color: darkcyan;
 }
 
 /* === MATCHING SCREEN === */
